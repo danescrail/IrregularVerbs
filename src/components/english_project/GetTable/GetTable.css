@@ -1,0 +1,83 @@
+table {
+  background: black;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+thead td {
+  font-weight: bold;
+  border: solid 0.1px black;
+}
+
+td {
+  width: 140px;
+  height: 30px;
+  padding: 3px;
+  border: solid 0.1px black;
+  text-align: center;
+  margin: 0px;
+  border-spacing: 0px;
+  z-index: 2;
+  background: white;
+}
+
+.items__item-remember-active {
+  background: #FFEBEE;
+  font-weight: bold;
+  color: darkred;
+}
+
+
+.items__item-know-active {
+  background: #E8F5E9;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.block__filter-block {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.block__filter-block button {
+  margin-top: 20px;
+  height: 40px;
+  width: 200px;
+  background: none;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: width 0.2s, height 0.2s, background-color 0.2s, -webkit-transform 0.2s;
+  transition: width 0.2s, height 0.2s, background-color 0.2s, transform 0.2s;
+  background: white;
+}
+
+.filter-block__remember-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.filter-block__know-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.remember-block__btn-remember {
+  border: 2px solid rgb(211, 69, 69);
+}
+
+.remember-block__btn-remember:hover {
+  background: rgb(211, 69, 69);
+  color: white;
+}
+
+.remember-block__btn-remember:active {
+  background: rgb(182, 17, 17);
+  color: white;
+}
+
+.table__container {
+  display: flex;
+  justify-content: center;
+}

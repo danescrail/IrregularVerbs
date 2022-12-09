@@ -1,0 +1,28 @@
+.main__container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-grow: 1;
+  margin-bottom: 578px;
+  margin-top: 50px;
+}
+
+.main__content {
+  width: 800px;
+  background: white;
+  border-radius: 12px;
+  padding-bottom: 10px;
+}
+
+.main__content p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main__content h2 {
+  margin-left: 20px;
+}

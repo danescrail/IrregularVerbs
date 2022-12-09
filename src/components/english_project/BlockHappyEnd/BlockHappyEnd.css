@@ -1,0 +1,14 @@
+.block__happy_end {
+  display: flex;
+  user-select: none;
+  height: 600px;
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid black 2px;
+  font-size: 18px;
+  border-radius: 20px;
+  text-align: center;
+  background: white;
+}

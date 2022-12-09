@@ -1,0 +1,11 @@
+.block__footer {
+  background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%)#211F20;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  align-self: flex-end;
+  font-size: 14px;
+}

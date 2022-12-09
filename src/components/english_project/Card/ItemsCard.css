@@ -1,0 +1,194 @@
+body, html {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #F6F6F6;
+}
+
+.card__container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 317px;
+  margin-top: 50px;
+}
+
+.card-items {
+  display: flex;
+  user-select: none;
+  height: 600px;
+  width: 450px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: solid black 2px;
+  font-size: 18px;
+  border-radius: 20px;
+  background: white;
+}
+
+.card-items-animation {
+  display: flex;
+  user-select: none;
+  background: white;
+  height: 600px;
+  width: 450px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: solid black 2px;
+  font-size: 18px;
+  border-radius: 20px;
+  transition-duration: 0.8s;
+  transition-property: transform;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+.card-items-animation span {
+  margin: 10px 0px 0px 10px;
+  text-align: center;
+}
+
+.card-items-animation div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 120px;
+}
+
+.card-items-animation div:nth-child(1) {
+  width: 100px;
+}
+
+.card-items-animation div:nth-child(4) span {
+  height: 60px;
+}
+
+.card-items-animation div:nth-child(4) {
+  height: 325px;
+}
+
+.card-items-animation h3 {
+  font-size: 20px;
+  padding: 0px;
+  margin: 10px 0px 0px 10px;
+}
+
+.card-items-animation button{
+  width: 200px;
+  border-radius: 20px;
+  height: 50px;
+  background: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-items-animation button:hover {
+  -webkit-transition: width 0.2s, height 0.2s, background-color 0.2s, -webkit-transform 0.2s;
+  transition: width 0.2s, height 0.2s, background-color 0.2s, transform 0.2s;
+}
+
+.card-items span {
+  margin: 10px 0px 0px 10px;
+  text-align: center;
+}
+
+.card-items div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 120px;
+}
+
+.card-items div:nth-child(1) {
+  width: 100px;
+}
+
+.card-items div:nth-child(4) span {
+  height: 60px;
+}
+
+.card-items div:nth-child(4) {
+  height: 325px;
+}
+
+.card-items h3 {
+  font-size: 20px;
+  padding: 0px;
+  margin: 10px 0px 0px 10px;
+}
+
+.card-items button{
+  width: 200px;
+  border-radius: 20px;
+  height: 50px;
+  background: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-items button:hover {
+  -webkit-transition: width 0.2s, height 0.2s, background-color 0.2s, -webkit-transform 0.2s;
+  transition: width 0.2s, height 0.2s, background-color 0.2s, transform 0.2s;
+}
+
+.items__btn-know {
+  border: #96c1fc 2px solid;
+  cursor: pointer;
+}
+
+.items__btn-know:hover {
+  background: #81b4fb;
+}
+
+.items__btn-know:active {
+  background: #589eff;
+}
+
+.items__btn-remember {
+  border: #FDDCC4 2px solid;
+  cursor: pointer;
+}
+
+.items__btn-remember:hover {
+  background: #FDDCC4;
+}
+
+.items__btn-remember:active {
+  background: #f4cdb1;
+}
+
+
+.items__btn-next {
+  border: rgb(142, 234, 161) 2px solid;
+  background: rgb(142, 234, 161) ;
+  cursor: pointer;
+}
+
+.items__btn-next:hover {
+  background: rgb(142, 234, 161);
+}
+
+.items__btn-next:active {
+  background: rgb(89, 247, 121);
+}
+
+.items__block-btns {
+  height: 200px;
+}
+
+.items__btn-remember-disable {
+  border: #FDDCC4 2px solid;
+}
+
+.items__btn-know-disable {
+  border: #96c1fc 2px solid;
+}
